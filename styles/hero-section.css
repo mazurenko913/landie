@@ -17,7 +17,6 @@
     flex-direction: row;
     list-style-type: none;
     margin: 18px 0;
-    
 }
 
 .hero-section .header-menu-list li{
@@ -62,6 +61,7 @@
 .hero-section .content .btn{
     line-height: 28px;
     margin-top: 69px;
+    margin-right: 30px;;
 }
 
 .hero-section .content .btn.ghost{
