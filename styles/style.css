@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: Roboto;
 }
 
 .btn{
@@ -7,7 +8,6 @@ body{
     border: none;
     color: #FFFFFF;
     border-radius: 2px;
-    font-family: Roboto;
     font-size: 12px;
     line-height: 18px;
     padding: 4px 57px;
@@ -19,7 +19,6 @@ body{
     color: #091133;
     background: #FFFFFF;
     border: 2px solid #091133;
-    font-family: Roboto;
     border-radius: 2px;
     padding: 4px 57px;
 }
