@@ -22,3 +22,12 @@ body{
     border-radius: 2px;
     padding: 4px 57px;
 }
+
+.badge{
+    font-size: 14px;
+    line-height: 24px;
+    background: #111B47;
+    border-radius: 2px; 
+    border: none;
+    color: #FFFFFF;
+}
