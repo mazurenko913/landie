@@ -35,3 +35,8 @@
 .benefits-section  .margin-badge{
     margin-bottom: 44px;
 }
+
+.benefits-section .badge{
+    width: 150px;
+    text-align: center;
+}
