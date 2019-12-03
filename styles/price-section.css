@@ -1,19 +1,18 @@
 .price-section{
-    background: url(../images/price-bg-1.png);
+    background: url(../images/price-bg-1.png),
+    url(../images/price-bg-2.png);
     background-repeat: no-repeat;
-    width: 1440px;
-    height: 938px;
+    background-size: cover, auto;
+    background-position: center, center;
     display: flex;
     justify-content: center;
 }
 
 .price-section .price-wraper{
-    background: url(../images/price-bg-2.png);
-    background-repeat: no-repeat;
-    width: 1060px;
     height: 806px;
     text-align: center;
     padding-top: 300px;
+    
 }
 
 .price-section .price-title{
@@ -49,5 +48,10 @@
     line-height: 24px;
     color: #5D6970;
     margin-bottom: 13px;
+}
+
+.price-section .badge{
+    width: 189px;
+    margin-left: 200px;
 }
 
