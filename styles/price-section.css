@@ -52,6 +52,6 @@
 
 .price-section .badge{
     width: 189px;
-    margin-left: 200px;
+    display: inline-block;
 }
 

@@ -81,8 +81,12 @@
     color: #505F98;
 }
 
+.hero-section .button-wraper{
+    display: flex;
+    margin-top: 69px;
+}
+
 .hero-section .purchease-btn,
 .hero-section .learn-more-btn{
     margin-right: 30px;
-    margin-top: 69px;
 }
