@@ -3,7 +3,7 @@
     url(../images/price-bg-2.png);
     background-repeat: no-repeat;
     background-size: cover, auto;
-    background-position: center, center;
+    background-position: center, top;
     display: flex;
     justify-content: center;
 }
