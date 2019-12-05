@@ -1,0 +1,81 @@
+.footer{
+    background: #E7ECFF;
+}
+
+.footer .footer-content{
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.footer .footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+
+.footer .product-disign{
+    font-size: 14px;
+    line-height: 24px;
+    color: #939EA4;
+    text-decoration: none;
+}
+
+.footer .footer-main-link{
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 38px;
+    color: #37447E;
+}
+
+.footer .badge{
+    height: 20px;
+    width: 109px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer .divider{
+    border-color:  #CDD1D4;
+    border-top: none; 
+}
+
+.footer .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer-menu-list{
+    display: flex;
+    list-style-type: none;
+    margin: 18px 0;
+}
+
+.footer .footer-menu-list li{
+    margin-right: 60px;
+}
+
+.footer .footer-menu-list li:last-child{
+    margin-right: 0;
+}
+
+.footer .footer-text-link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #929ECC;
+}
+
+.footer .social-icon{
+    margin-right: 30px;
+}
+
+.footer .social-icon:last-child{
+    margin-right: 0;
+}
