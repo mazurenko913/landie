@@ -58,3 +58,9 @@
 .product-section .left-card{
     margin-right: 30px;
 }
+
+.product-section .product-image{
+    margin-top: 109px;
+    height: 540px;
+    width: 524px;
+}
