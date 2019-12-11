@@ -2,7 +2,6 @@
     background-image: url(../images/bg-image.png);
     background-position: top right;
     background-repeat: no-repeat;
-    height: 1053px;
 }
 
 .hero-section .header{
@@ -151,9 +150,11 @@
     }
     .hero-section .header-menu-list{
         margin: 12px 0;
+        width: 100%;
+        justify-content: space-around;
     }
     .hero-section .header-menu-list li {
-        margin-right: 150px;;
+        margin-right: 0;
     }
     .hero-section .content-title {
         font-size: 25px;
