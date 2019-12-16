@@ -1,5 +1,5 @@
 .footer{
-    background: #E7ECFF;
+    background: var(--color-beckground);
 }
 
 .footer .footer-content{
@@ -18,7 +18,7 @@
 .footer .product-disign{
     font-size: 14px;
     line-height: 24px;
-    color: #939EA4;
+    color: var(--color-disign);
     text-decoration: none;
 }
 
@@ -26,7 +26,7 @@
     text-decoration: none;
     font-size: 26px;
     line-height: 38px;
-    color: #37447E;
+    color: var(--color-menu);
 }
 
 .footer .badge{
@@ -35,11 +35,11 @@
     font-size: 12px;
     line-height: 18px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--color-badge);
 }
 
 .footer .divider{
-    border-color:  #CDD1D4;
+    border-color:  var(--color-border);
     border-top: none; 
 }
 
@@ -69,7 +69,7 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #929ECC;
+    color: var(--color-secondary-link);
 }
 
 .footer .social-icon{
