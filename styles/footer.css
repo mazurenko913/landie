@@ -26,7 +26,7 @@
     text-decoration: none;
     font-size: 26px;
     line-height: 38px;
-    color: var(--color-menu);
+    color: var(--color-logo);
 }
 
 .footer .badge{
@@ -39,7 +39,7 @@
 }
 
 .footer .divider{
-    border-color:  var(--color-border);
+    border-color:  var(--color-divider);
     border-top: none; 
 }
 

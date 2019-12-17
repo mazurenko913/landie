@@ -32,7 +32,7 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: var(--color-main-link);
+    color: var(--color-primary-link);
 }
 
 .hero-section .header-main-link{
@@ -41,7 +41,7 @@
     font-weight: 900;
     font-size: 26px;
     line-height: 38px;
-    color: var(--color-menu);
+    color: var(--color-logo);
 }
 
 .hero-section .header-main-link{  
@@ -73,7 +73,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-    color: var(--color-paragraph);
+    color: var(--color-primary-paragraph);
 }
 
 .hero-section .button-wraper{

@@ -29,7 +29,7 @@
 .product-section .content-text{
     font-size: 16px;
     line-height: 26px;
-    color: var(--color-paragraph);
+    color: var(--color-primary-paragraph);
 }
 
 .product-section .cards-info{
@@ -53,7 +53,7 @@
 .product-section .card-text{
     font-size: 12px;
     line-height: 18px;
-    color: var(--color-card);
+    color: var(--color-secondory-paragraph);
 }
 
 .product-section .left-card{

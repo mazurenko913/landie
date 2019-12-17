@@ -31,7 +31,7 @@
 .benefits-section .benefits-text{
     font-size: 16px;
     line-height: 26px;
-    color: var(--color-paragraph);
+    color: var(--color-primary-paragraph);
 }
 
 .benefits-section  .margin-badge{

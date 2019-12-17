@@ -1,13 +1,12 @@
 :root{
-    --color-main-link:#505F98;
-    --color-menu: #37447E;
+    --color-primary-link: #505F98;
+    --color-secondary-link: #929ECC;
+    --color-logo: #37447E;
     --color-tilte: #091133;
-    --color-paragraph:#6F7CB2;
-    --color-card:#5D6970;
-    --color-description:#222F65;
-    --color-beckground:#E7ECFF;
-    --color-disign:#939EA4;
+    --color-primary-paragraph: #6F7CB2;
+    --color-secondory-paragraph: #5D6970;
+    --color-beckground: #E7ECFF;
     --color-badge: #FFFFFF;
-    --color-border:#CDD1D4;
-    --color-secondary-link:#929ECC;
+    --color-divider: #CDD1D4;
+    
 }
