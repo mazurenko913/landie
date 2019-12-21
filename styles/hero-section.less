@@ -86,16 +86,19 @@
     margin-right: 30px;
 }
 
-@media only screen and (max-width: 1200px) {
-    .hero-section {
-        background-size: 600px 500px;
-    }
-    .hero-section .content{
-        margin-left: 64px;
-        margin-top: 75px;
-    }
-  }
 
+.hero-section {
+    .responsive-xl({
+        background-size: 600px 500px;
+    });
+
+    .content {
+        .responsive-xl({
+            margin-left: 64px;
+            margin-top: 75px;
+        });
+    }
+}
 
 @media only screen and (max-width: 992px) {
     .hero-section {

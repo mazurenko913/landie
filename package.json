@@ -1,0 +1,21 @@
+{
+  "name": "landie",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "lessc styles/index.less styles/index.css",
+    "build:watch": "less-watch-compiler styles/ styles/ --main-file=index.less"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mazurenko@bitbucket.org/mazurenko/landie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/mazurenko/landie#readme",
+  "dependencies": {
+    "less": "^3.10.3",
+    "less-watch-compiler": "^1.14.1"
+  }
+}
