@@ -16,6 +16,7 @@
   "homepage": "https://bitbucket.org/mazurenko/landie#readme",
   "dependencies": {
     "less": "^3.10.3",
-    "less-watch-compiler": "^1.14.1"
+    "less-watch-compiler": "^1.14.1",
+    "normalize.css": "^8.0.1"
   }
 }
