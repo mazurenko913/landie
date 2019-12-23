@@ -55,102 +55,127 @@
     display: inline-block;
 }
 
-@media only screen and (max-width: 1200px) {
-    .price-section .price-title {
-        font-size: 42px;
-        line-height: 52px;
-        margin-bottom: 18px;
-    }
-    .price-section .price-text {
-        font-size: 18px;
-        line-height: 28px;
-        margin-bottom: 38px;
-    }
-    .price-section .product-price{
-        font-size: 54px;
-        line-height: 68px;
-    }
-    .price-section .product-source {
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .price-section .product-response {
-        font-size: 16px;
-        line-height: 22px;
-        margin-bottom: 12px;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .price-section {
+.price-section{
+    .responsive-lg({
         background-size: cover, 850px 850px;
-  }
-    .price-section .price-wraper {
-        margin-bottom: 50px;
-        margin-top: 230px;
-    }
-}
+    });
 
-@media only screen and (max-width: 768px) {
-    .price-section {
+    .responsive-md({
         background-size: cover, 600px 600px;
-    }
-    .price-section .price-wraper {
-        margin-bottom: 0;
-        margin-top: 180px;
-    }
-    .price-section .price-title {
-        font-size: 24px;
-        line-height: 32px;
-    }
-    .price-section .price-text {
-        font-size: 14px;
-        line-height: 22px;
-        margin-bottom: 22px;
-    }
-    .price-section .product-source {
-        font-size: 14px;
-        line-height: 20px;
-        margin-bottom: 32px;
-    }
-    .price-section .product-response {
-        font-size: 12px;
-        line-height: 20px;
-        margin-bottom: 10px;
-    }
-    .price-section .badge {
-        line-height: 20px;
-    }
-}
+    });
 
-@media only screen and (max-width: 576px){
-    .price-section {
+    .responsive-sm({
         background-size: cover, 550px 550px;
+    });
+
+    .price-wraper{
+        .responsive-lg({
+            margin-bottom: 50px;
+            margin-top: 230px;
+        });
+    
+        .responsive-md({
+            margin-bottom: 0;
+            margin-top: 180px;
+        });
+    
+        .responsive-sm({
+            margin-bottom: 0;
+            margin-top: 175px;
+        });
     }
-    .price-section .price-wraper {
-        margin-bottom: 0;
-        margin-top: 175px;
+
+    .price-title{
+        .responsive-xl({
+            font-size: 42px;
+            line-height: 52px;
+            margin-bottom: 18px;
+        });
+    
+        .responsive-md({
+            font-size: 24px;
+            line-height: 32px;
+        });
+    
+        .responsive-sm({
+            font-size: 18px;
+            line-height: 22px;
+        });
     }
-    .price-section .price-title {
-        font-size: 18px;
-        line-height: 22px;
+
+    .price-text{
+        .responsive-xl({
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 38px;
+        });
+    
+        .responsive-md({
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 22px;
+        });
+    
+        .responsive-sm({
+            font-size: 12px;
+            line-height: 18px;
+            margin-bottom: 18px;
+        });
     }
-    .price-section .price-text {
-        font-size: 12px;
-        line-height: 18px;
-        margin-bottom: 18px;
+    .product-source{
+        .responsive-xl({
+            font-size: 18px;
+            line-height: 28px;
+        });
+    
+        .responsive-md({
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 32px;
+        });
+    
+        .responsive-sm({
+            font-size: 12px;
+            line-height: 18px;
+            margin-bottom: 22px;
+        });
     }
-    .price-section .product-source {
-        font-size: 12px;
-        line-height: 18px;
-        margin-bottom: 22px;
+
+    .product-response{
+        .responsive-xl({
+            font-size: 16px;
+            line-height: 22px;
+            margin-bottom: 12px;
+        });
+    
+        .responsive-md({
+            font-size: 12px;
+            line-height: 20px;
+            margin-bottom: 10px;
+        });
+    
+        .responsive-sm({
+            font-size: 12px;
+            line-height: 18px;
+            margin-bottom: 8px;
+        });
     }
-    .price-section .product-response {
-        font-size: 12px;
-        line-height: 18px;
-        margin-bottom: 8px;
+    
+    .badge{
+        .responsive-md({
+            line-height: 20px;
+        });
+    
+        .responsive-sm({
+            line-height: 18px;
+        });
     }
-    .price-section .badge {
-        line-height: 18px;
+
+    .product-price{
+        .responsive-xl({
+            font-size: 54px;
+            line-height: 68px;
+        });
     }
-  }
+
+}

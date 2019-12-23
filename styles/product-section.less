@@ -65,63 +65,78 @@
     width: 524px;
 }
 
-@media only screen and (max-width: 1200px) {
-    .product-section .content-wraper{
-        margin-top: 75px;
-    }
-  }
 
-@media only screen and (max-width: 992px) {
-    .product-section .product-image{
-        height: 350px;
-        width: 350px;
-    }
-  }
+.product-section {
+    .content-wraper{
+        .responsive-xl({
+            margin-top: 75px;
+        });
 
-@media only screen and (max-width: 768px) {
-    .product-section .content-wraper {
-        flex-wrap: wrap;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .product-section .product-image{
-        margin-top: 54px;
-        height: 500px;
-        width: 500px;
-    }
-    .product-section .content-title {
-        margin-bottom: 8px;
-        font-size: 32px;
-        line-height: 32px;
-    }
-    .product-section .content-text {
-        font-size: 14px;
-        line-height: 22px;
-    }
-    .product-section .cards-info {
-        margin-top: 36px;
-    }
-  }
+        .responsive-md({
+            flex-wrap: wrap;
+            margin-left: 0;
+            margin-right: 0;
+        });
 
-@media only screen and (max-width: 576px){
-    .product-section .content-wraper {
-        flex-wrap: wrap;
-    }
-    .product-section .product-image {
-        margin-top: 32px;
-        height: 500px;
-        width: 500px;
-        margin-right: 0px;
-    }
-    .product-section .content-title {
-        font-size: 28px;
-        line-height: 28px;
-    }
-    .product-section .cards-info {
-        margin-top: 16px;
-    }
-    .product-section .left-card {
-        margin-right: 16px;
+        .responsive-sm({
+            flex-wrap: wrap;
+        });
     }
 
-  }
+    .product-image{
+        .responsive-lg({
+            height: 350px;
+            width: 350px;
+        });
+
+        .responsive-md({
+            margin-top: 54px;
+            height: 500px;
+            width: 500px;
+        });
+
+        .responsive-sm({
+            margin-top: 32px;
+            height: 500px;
+            width: 500px;
+            margin-right: 0px;
+        });
+    }
+
+    .content-title{
+        .responsive-md({
+            margin-bottom: 8px;
+            font-size: 32px;
+            line-height: 32px;
+        });
+
+        .responsive-sm({
+            font-size: 28px;
+            line-height: 28px;
+        });
+    }
+
+    .content-titlecards-info{
+        .responsive-md({
+            margin-top: 36px;
+        });
+
+        .responsive-sm({
+            margin-top: 16px;
+        });
+    }
+
+    .content-text{
+        .responsive-md({
+            font-size: 14px;
+            line-height: 22px;
+        });
+    }
+
+    .cleft-card{
+        .responsive-md({
+            margin-right: 16px;
+        });
+    }
+
+}

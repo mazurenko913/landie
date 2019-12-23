@@ -1,8 +1,28 @@
 @breakpoint-xl: 1200px;
-
+@breakpoint-lg: 992px;
+@breakpoint-md: 768px;
+@breakpoint-sm: 576px;
 
 .responsive-xl(@rules) {
     @media only screen and (max-width: @breakpoint-xl) {
+        @rules();
+    }
+}
+
+.responsive-lg(@rules) {
+    @media only screen and (max-width: @breakpoint-lg) {
+        @rules();
+    }
+}
+
+.responsive-md(@rules) {
+    @media only screen and (max-width: @breakpoint-md) {
+        @rules();
+    }
+}
+
+.responsive-sm(@rules) {
+    @media only screen and (max-width: @breakpoint-sm) {
         @rules();
     }
 }
