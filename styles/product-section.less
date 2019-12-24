@@ -21,15 +21,7 @@
 
 .product-section .content-title{
     margin-bottom: 16px;
-    font-size: 36px;
-    line-height: 48px;
-    color: var(--color-tilte);
-}
-
-.product-section .content-text{
-    font-size: 16px;
-    line-height: 26px;
-    color: var(--color-primary-paragraph);
+    
 }
 
 .product-section .cards-info{
@@ -42,12 +34,6 @@
     height: 36px;
     width: 36px;
     margin-bottom: 14px;
-}
-
-.product-section .card-title{
-    font-size: 16px;
-    line-height: 26px;
-    color: var(--color-tilte);
 }
 
 .product-section .card-text{
@@ -67,6 +53,10 @@
 
 
 .product-section {
+    .responsive-sm({
+        margin-bottom: 80px;
+    });
+
     .content-wraper{
         .responsive-xl({
             margin-top: 75px;
@@ -138,5 +128,4 @@
             margin-right: 16px;
         });
     }
-
 }
