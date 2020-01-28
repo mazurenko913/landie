@@ -9,8 +9,5 @@
 # Xlarge devices, 1200px;
 ![xlarge devices](img/site-xl.png)
 
-# Medium devices, 768px;
-![medium devices](img/site-md.png)
-
 # Small devices, 576px;
 ![small devices](img/site-sm.png)
