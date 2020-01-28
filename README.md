@@ -4,23 +4,13 @@
 Створення сайту з використанням препроцессора Less та медіа запросів.
 
 ## Як використовувати
-Виберіть потрібно папку з компонентами в корні проекту і відкрийте index.html в браузері.
+Виберыть  index.html  в корні проекту і відкрийте в браузері.
 
-## Список компонентів які використовуються
-* Препроцесор Less
-* Медіа запроси
+# Xlarge devices, 1200px;
+![xlarge devices](img/site-xl.png)
 
-# Header
-![header-lg](img/header-lg.png)
-![header-md](img/header-md.png)
-![header-sm](img/header-sm.png)
+# Medium devices, 768px;
+![medium devices](img/site-md.png)
 
-# Content
-![content-lg](img/content-lg.png)
-![content-md](img/content-md.png)
-![content-sm](img/content-sm.png)
-
-# Footer 
-![footer-lg](img/footer-lg.png)
-![header-md](img/footer-md.png)
-![header-sm](img/footer-sm.png)
+# Small devices, 576px;
+![small devices](img/site-sm.png)
