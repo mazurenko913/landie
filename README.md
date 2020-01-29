@@ -1,10 +1,10 @@
-Практичне використання можливостей html, css та препроцесора Less.
+Practical use of Html, CSS and Less preprocessor.
 
-## Мета проекту
-Створення сайту з використанням препроцессора Less та медіа запросів.
+## The purpose of the project
+Creating a site using Less preprocessor and media queries.
 
-## Як використовувати
-Запустіть index.html в браузері
+## How to use
+Run index.html in your browser
 
 # Xlarge devices, 1200px;
 ![xlarge devices](img/site-xl.png)
