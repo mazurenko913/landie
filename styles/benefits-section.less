@@ -1,10 +1,8 @@
 .benefits-section{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 222px;
-    margin-left: 32px;
-    margin-right: 32px;
 }
 
 .benefits-section:last-child{
@@ -14,7 +12,6 @@
 .benefits-section .benefit-image{
     height: 315px;
     width: 450px;
-    margin-right:125px;
 }
 
 .benefits-section .content{
@@ -34,37 +31,59 @@
     text-align: center;
 }
 
-
 .benefits-section{
     .responsive-md({
-        flex-wrap: wrap-reverse;
         margin-bottom: 68px;
-        margin-left: 0;
-        margin-right: 0;
     });
 
     .responsive-sm({
-        margin-bottom: 54px;
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
     });
 
-    .benefit-image{
-        .responsive-xl({
-            margin-right: 160px;
+    .responsive-xs({
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+       });
+
+    .content{
+        .responsive-md({
+            margin-left: 20px;
         });
 
+        .responsive-xs({
+            width: 550px;
+           });
+    }
+
+    .benefit-image{
         .responsive-lg({
-            margin-right: 60px;
-            height: 250px;
-            width: 350px;
+            margin-right: 40px;
+            
         });
 
         .responsive-md({
             margin-top: 54px;
+            height: 250px;
+            width: 350px;
             margin-right: 0;
         });
 
         .responsive-sm({
             margin-top: 32px;
+        });
+
+        .responsive-xs({
+         margin-right: 0;
+         width: 100%;
+         height: 100%;
+         margin-top: 20px;
         });
     }
 

@@ -32,6 +32,32 @@ body{
     color: var(--color-badge);
 }
 
+.container{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+
+        .responsive-xs({
+            max-width: 	100%;
+            margin: 0;
+        });
+    
+        .responsive-sm({
+            max-width: 540px;
+        });
+        .responsive-md({
+            max-width: 	720px
+        });
+        .responsive-lg({
+            max-width: 	960px;
+        });
+    
+    .responsive-xl({
+        max-width: 1140px;
+    });
+}
+
 h1{
     font-style: normal;
     font-weight: 500;
@@ -69,3 +95,4 @@ p{
     line-height: 26px;
     color: var(--color-primary-paragraph);
 }
+
