@@ -45,7 +45,7 @@
 }
 
 .price-section .badge{
-    width: 189px;
+    max-width: 189px;
     display: inline-block;
 }
 
@@ -62,6 +62,10 @@
         background-size: cover, 550px 550px;
     });
 
+    .responsive-xs({
+        background-size: cover, 500px 500px;
+    });
+
     .price-wraper{
         .responsive-lg({
             margin-bottom: 50px;
@@ -76,6 +80,11 @@
         .responsive-sm({
             margin-bottom: 0;
             margin-top: 125px;
+        });
+
+        .responsive-xs({
+            margin-bottom: 0;
+            margin-top: 140px;
         });
     }
 
@@ -94,6 +103,11 @@
         .responsive-sm({
             font-size: 18px;
             line-height: 22px;
+        });
+
+        .responsive-xs({
+            font-size: 14px;
+            line-height: 14px;
         });
     }
 
@@ -115,6 +129,12 @@
             line-height: 18px;
             margin-bottom: 18px;
         });
+
+        .responsive-xs({
+            font-size: 12px;
+            line-height: 14px;
+            margin-bottom: 14px;
+        });
     }
 
     .product-source{
@@ -134,6 +154,12 @@
             line-height: 18px;
             margin-bottom: 22px;
         });
+
+        .responsive-xs({
+            font-size: 10px;
+            line-height: 14px;
+            margin-bottom: 28px;
+        });
     }
 
     .product-response{
@@ -152,6 +178,12 @@
         .responsive-sm({
             font-size: 12px;
             line-height: 18px;
+            margin-bottom: 8px;
+        });
+
+        .responsive-sm({
+            font-size: 10px;
+            line-height: 14px;
             margin-bottom: 8px;
         });
     }
