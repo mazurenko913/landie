@@ -6,20 +6,13 @@
     background-position: center, top;
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 
-.price-section .price-wraper{
+.price-section .price-wrapper{
     height: 604px;
     text-align: center;
     margin-top: 235px;
-}
-
-.price-section .price-title{
-    margin-bottom: 16px;
-}
-
-.price-section .price-text{
-    margin-bottom: 35px;
 }
 
 .price-section .product-price{
@@ -44,7 +37,7 @@
 }
 
 .price-section .badge{
-    width: 189px;
+    max-width: 189px;
     display: inline-block;
 }
 
@@ -61,7 +54,11 @@
         background-size: cover, 550px 550px;
     });
 
-    .price-wraper{
+    .responsive-xs({
+        background-size: cover, 500px 500px;
+    });
+
+    .price-wrapper{
         .responsive-lg({
             margin-bottom: 50px;
             margin-top: 230px;
@@ -75,6 +72,12 @@
         .responsive-sm({
             margin-bottom: 0;
             margin-top: 125px;
+        });
+
+        .responsive-xs({
+            margin-bottom: 0;
+            margin-top: 140px;
+            height: 500px;
         });
     }
 
@@ -93,6 +96,11 @@
         .responsive-sm({
             font-size: 18px;
             line-height: 22px;
+        });
+
+        .responsive-xs({
+            font-size: 14px;
+            line-height: 14px;
         });
     }
 
@@ -114,6 +122,12 @@
             line-height: 18px;
             margin-bottom: 18px;
         });
+
+        .responsive-xs({
+            font-size: 12px;
+            line-height: 14px;
+            margin-bottom: 10px;
+        });
     }
 
     .product-source{
@@ -132,6 +146,12 @@
             font-size: 12px;
             line-height: 18px;
             margin-bottom: 22px;
+        });
+
+        .responsive-xs({
+            font-size: 10px;
+            line-height: 14px;
+            margin-bottom: 10px;
         });
     }
 
@@ -153,6 +173,12 @@
             line-height: 18px;
             margin-bottom: 8px;
         });
+
+        .responsive-sm({
+            font-size: 10px;
+            line-height: 14px;
+            margin-bottom: 0;
+        });
     }
     
     .badge{
@@ -169,6 +195,11 @@
         .responsive-xl({
             font-size: 54px;
             line-height: 68px;
+        });
+
+        .responsive-xs({
+            font-size: 54px;
+            line-height: 20px;
         });
     }
 }
