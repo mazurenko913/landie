@@ -6,8 +6,8 @@ Creating a site using Less preprocessor and media queries.
 ## How to use
 Run index.html in your browser
 
-# Xlarge devices, 1200px;
+# Large devices, 1200px;
 ![xlarge devices](img/site-xl.png)
 
-# Small devices, 576px;
-![small devices](img/site-sm.png)
+# Extra small devices, 575px;
+![small devices](img/site-xs.png)
