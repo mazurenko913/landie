@@ -9,5 +9,5 @@ Run index.html in your browser
 # Desktop, 1200px;
 ![xlarge devices](img/site-xl.png)
 
-# Mobile, 575px;
+# Mobile, 375px;
 ![small devices](img/site-xs.png)
