@@ -10,4 +10,4 @@ Run index.html in your browser
 ![xlarge devices](img/site-xl.png)
 
 # Mobile, 375px;
-![small devices](img/site-xs.png)
+![small devices](img/site-xs)
